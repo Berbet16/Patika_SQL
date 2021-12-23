@@ -6,4 +6,4 @@
 
 ### .actor tablosunda bulunan first_name ve last_name sütunlardaki verileri first_name 'Penelope' veya 'Nick' veya 'Ed' değerleri olması koşuluyla sıralayınız. ( IN operatörünü kullanınız.)
 
-``` SELECT * from film WHERE replacement_cost BETWEEN 12.99 AND 16.99 ; ```
+```  ```
