@@ -6,7 +6,7 @@
 
 ### film tablosunda bulunan filmlerden kaç tanesi 'C' karakteri ile başlar?
 
-``` SELECT COUNT(DISTINCT replacement_cost) FROM film; ```
+``` SELECT COUNT(*) FROM film WHERE film LIKE '%c'; ```
 
 ### film tablosunda bulunan filmlerden rental_rate değeri 0.99 a eşit olan en uzun (length) film kaç dakikadır?
 
