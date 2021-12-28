@@ -10,8 +10,8 @@
 
 ### film tablosunda bulunan filmlerden rental_rate değeri 0.99 a eşit olan en uzun (length) film kaç dakikadır?
 
-``` SELECT COUNT(title) FROM film WHERE title LIKE 'T%' AND rating = 'G'; ```
+```  ```
 
 ### film tablosunda bulunan filmlerin uzunluğu 150 dakikadan büyük olanlarına ait kaç farklı replacement_cost değeri vardır?
 
-``` SELECT COUNT(country) FROM country WHERE country LIKE '_____'; ```
+```  ```
