@@ -57,6 +57,21 @@ WHERE id = 7;
 
 ### Sütunların her birine göre ilgili satırı silecek 5 adet DELETE işlemi yapalım.
 
-```  ```
+```
+DELETE FROM employee
+WHERE id = 14;
+
+DELETE FROM employee
+WHERE birthday = '1935-08-12';
+
+DELETE FROM employee
+WHERE name = 'Veli';
+
+DELETE FROM employee
+WHERE id IN (18, 19, 12);
+
+DELETE FROM employee
+WHERE email = 'agreenway3@uiuc.edu';
+```
 
 
