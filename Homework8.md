@@ -1,19 +1,19 @@
 # Patika_SQL_Homework8
 
-### film tablosunda bulunan filmleri rating değerlerine göre gruplayınız.
+### 1. test veritabanınızda employee isimli sütun bilgileri id(INTEGER), name VARCHAR(50), birthday DATE, email VARCHAR(100) olan bir tablo oluşturalım.
 
-``` SELECT COUNT(*) FROM film GROUP BY rating; ```
+```  ```
 
-### film tablosunda bulunan filmleri replacement_cost sütununa göre grupladığımızda film sayısı 50 den fazla olan replacement_cost değerini ve karşılık gelen film sayısını sıralayınız.
+### 2. Oluşturduğumuz employee tablosuna 'Mockaroo' servisini kullanarak 50 adet veri ekleyelim.
 
-``` SELECT replacement_cost, COUNT(*) FROM film GROUP BY replacement_cost HAVING COUNT(*) > 50 ORDER BY replacement_cost ``` 
+```  ``` 
 
-### customer tablosunda bulunan store_id değerlerine karşılık gelen müşteri sayılarını nelerdir?
+### 3. Sütunların her birine göre diğer sütunları güncelleyecek 5 adet UPDATE işlemi yapalım.
 
-``` SELECT store_id, COUNT(*) FROM customer GROUP BY store_id ```
+```  ```
 
-### city tablosunda bulunan şehir verilerini country_id sütununa göre gruplandırdıktan sonra en fazla şehir sayısı barındıran country_id bilgisini ve şehir sayısını paylaşınız.
+### Sütunların her birine göre ilgili satırı silecek 5 adet DELETE işlemi yapalım.
 
-``` SELECT country_id, COUNT(*) FROM city GROUP BY country_id ```
+```  ```
 
 
