@@ -33,7 +33,27 @@ insert into employee (id, name, email, birthday) values (4, 'Alyce', 'agreenway3
 
 ### 3. Sütunların her birine göre diğer sütunları güncelleyecek 5 adet UPDATE işlemi yapalım.
 
-```  ```
+```
+UPDATE employee
+SET name = 'Veli'
+WHERE id = 1;
+
+UPDATE employee
+SET email = 'tonia@tonia24.com'
+WHERE name = 'Tonia';
+
+UPDATE employee
+SET name = 'Mehmet'
+WHERE birthday = '2000-08-12';
+
+UPDATE employee
+SET birthday = '1999-10-23'
+WHERE email LIKE 'ag%';
+
+UPDATE employee
+SET email = 'test@gmail.com'
+WHERE id = 7;
+```
 
 ### Sütunların her birine göre ilgili satırı silecek 5 adet DELETE işlemi yapalım.
 
