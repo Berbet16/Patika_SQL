@@ -1,4 +1,4 @@
-# Patika_SQL_Homework1
+# Patika_SQL_Homework9
 
 ###  city tablosu ile country tablosunda bulunan şehir (city) ve ülke (country) isimlerini birlikte görebileceğimiz INNER JOIN sorgusunu yazınız.
 
