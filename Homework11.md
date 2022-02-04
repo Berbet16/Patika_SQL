@@ -15,5 +15,5 @@
 ### İlk 3 sorguyu tekrar eden veriler için de yapalım.
 
 ``` SELECT first_name FROM actor UNION ALL select first_name FROM customer; ```</br>
-``` SELECT first_name FROM actor INTERSECT ALL select first_name FROM customer; ```
+``` SELECT first_name FROM actor INTERSECT ALL select first_name FROM customer; ```</br>
 ``` SELECT first_name FROM actor EXCEPT ALL select first_name FROM customer; ```
