@@ -3,7 +3,7 @@
 
 ### city tablosu ile country tablosunda bulunan şehir (city) ve ülke (country) isimlerini birlikte görebileceğimiz LEFT JOIN sorgusunu yazınız.
 
-```  ```
+``` SELECT * FROM city LEFT JOIN country ON city.city_id = country.country_id; ```
 
 ### customer tablosu ile payment tablosunda bulunan payment_id ile customer tablosundaki first_name ve last_name isimlerini birlikte görebileceğimiz RIGHT JOIN sorgusunu yazınız.
 
