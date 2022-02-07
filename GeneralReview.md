@@ -6,7 +6,7 @@
 
 ### film tablosundan 'K' karakteri ile başlayan en uzun ve replacenet_cost u en düşük 4 filmi sıralayınız.
 
-```  ```
+``` SELECT title, replacement_cost,length FROM film WHERE title LIKE 'K%' ORDER BY length DESC, replacement_cost ASC LIMIT 4; ```
 
 ### film tablosunda içerisinden en fazla sayıda film bulunduran rating kategorisi hangisidir?
 
