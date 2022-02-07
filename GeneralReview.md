@@ -10,7 +10,7 @@
 
 ### film tablosunda içerisinden en fazla sayıda film bulunduran rating kategorisi hangisidir?
 
-```  ```
+``` SELECT COUNT(*), rating FROM film GROUP BY rating ORDER BY COUNT(*) DESC LIMIT 1; ```
 
 ### cutomer tablosunda en çok alışveriş yapan müşterinin adı nedir?
 
