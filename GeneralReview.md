@@ -14,7 +14,7 @@
 
 ### cutomer tablosunda en çok alışveriş yapan müşterinin adı nedir?
 
-```   ```
+```  SELECT SUM(amount), customer.first_name, customer.last_name FROM payment JOIN customer ON customer.customer_id = payment.customer_id;  ```
 
 ### category tablosundan kategori isimlerini ve kategori başına düşen film sayılarını sıralayınız.
 
