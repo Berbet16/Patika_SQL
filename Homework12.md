@@ -15,7 +15,7 @@
 
 ### payment tablosunda en fazla sayıda alışveriş yapan müşterileri(customer) sıralayınız.
 
-```  ```
+``` SELECT * FROM customer WHERE customer_id = (SELECT max(customer_id) FROM payment); ```
 
 
 
