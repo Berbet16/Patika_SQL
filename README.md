@@ -1,3 +1,4 @@
 # Patika_SQL HOMEWORKS
 
-### Patika Eğitim Platformundaki SQL Eğitim Modülünün ödevleridir.
+### Patika Eğitim Platformundaki SQL Eğitim Modülünün ödevleri
+
